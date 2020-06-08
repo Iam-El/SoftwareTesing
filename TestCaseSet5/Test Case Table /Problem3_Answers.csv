@@ -1,0 +1,29 @@
+1,1,1,2301,365,statement8TTstatement9FTT
+2,1,1,2021,366,statement 8 TT statement 9 FFT
+3,1,1,2401,366,statement 8 TT statement 9 FTF
+4,1,1,2025,366,statement 8 TT statement 9 TFT
+5,1,1,2024,365,statement 8 TT
+6,1,1,2023,365,statement 8 TT
+7,2,1,2300,31,statement 8 FT statement 9 FTT
+8,2,1,2020,31,statement 8 FT statement 9 FFT
+9,2,1,2400,31,statement 8 FT statement 9 FTF
+10,2,1,2350,31,statement 8 FT statement 9 TFT
+11,2,1,2351,31,statement 8 FT
+12,2,1,2349,31,statement 8 FT
+13,1,1,2302,365,statement 8 TT
+14,1,1,2022,365,statement 8 TT
+15,1,1,2402,365,statement 8 TT
+16,1,2,2299,1,statement 8 TT
+17,1,2,2019,1,statement 8 TF
+18,1,2,2399,1,statement 8 TF
+19,1,31,2019,30,
+20,2,0,2019,30,
+21,3,31,2019,89,
+22,4,30,2019,119,
+23,5,31,2019,150,
+24,6,30,2019,180,
+25,7,31,2019,211,
+26,8,31,2019,242,
+27,9,30,2019,272,
+28,10,31,2019,303,
+29,11,30,2019,333,

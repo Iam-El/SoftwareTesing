@@ -1,0 +1,347 @@
+
+TEST CASES
+case	Number of drinks	discount type	drink type	size	payment type	pairings
+1	1	None	Coffee	Small	Cash	10
+2	1	Student	Tea	Regular	Credit	10
+3	1	Teacher	Soda	Large	Debit	10
+4	4	None	Tea	Large	Cash	9
+5	4	Student	Coffee	Grande	Debit	10
+6	4	Teacher	Slushy	Small	Credit	10
+7	7	None	Soda	Regular	Credit	9
+8	7	Student	Slushy	Large	Cash	9
+9	7	Teacher	Coffee	Regular	Cash	7
+10	7	Military	Tea	Small	Debit	10
+11	12	None	Slushy	Grande	Debit	9
+12	12	Military	Coffee	Large	Credit	10
+13	12	Frequent	Soda	Small	Cash	9
+14	17	Military	Cappuccino	Regular	Cash	9
+15	17	Frequent	Tea	Grande	Credit	9
+16	17	Coupon	Soda	Grande	Cash	7
+17	17	Employee	Slushy	Regular	Debit	8
+18	20	Frequent	Cappuccino	Large	Debit	9
+19	20	Coupon	Cappuccino	Small	Credit	8
+20	20	Employee	Coffee	Grande	Cash	7
+21	31	Coupon	Coffee	Regular	Debit	7
+22	31	Employee	Cappuccino	Small	Credit	7
+23	31	Student	Soda	Small	Cash	5
+24	50	Teacher	Cappuccino	Grande	Cash	7
+25	50	Military	Soda	Large	Credit	5
+26	50	Frequent	Coffee	Regular	Debit	6
+27	1	Military	Slushy	Grande	~Credit	5
+28	4	Coupon	Tea	Regular	~Cash	3
+29	7	Coupon	Slushy	Large	~Credit	3
+30	7	Employee	Tea	Grande	~Debit	3
+31	12	Employee	Soda	Regular	~Credit	3
+32	17	None	Coffee	Small	~Credit	3
+33	20	None	Soda	Regular	~Debit	3
+34	31	Teacher	Tea	Large	~Debit	4
+35	31	Frequent	Slushy	Grande	~Cash	4
+36	50	Student	Cappuccino	Small	~Debit	3
+37	1	Employee	Cappuccino	Large	~Cash	3
+38	4	Military	Soda	~Grande	~Debit	2
+39	4	Frequent	Cappuccino	~Regular	~Credit	2
+40	12	Student	Tea	~Small	~Cash	2
+41	12	Teacher	Cappuccino	~Grande	~Credit	2
+42	17	Student	~Coffee	Large	~Credit	2
+43	20	Military	Slushy	~Small	~Cash	2
+44	20	None	Tea	~Large	~Credit	1
+45	50	None	Slushy	~Regular	~Cash	2
+46	50	Coupon	Tea	~Small	~Debit	2
+47	7	None	Cappuccino	~Grande	~Debit	2
+48	1	Frequent	~Slushy	~Small	~Debit	1
+49	12	Coupon	~Coffee	~Large	~Debit	1
+50	17	Teacher	~Tea	~Small	~Debit	1
+51	31	Military	~Coffee	~Regular	~Credit	1
+52	50	Employee	~Coffee	~Large	~Credit	1
+53	1	Coupon	~Soda	~Grande	~Credit	1
+54	4	Employee	~Soda	~Small	~Cash	1
+55	7	Frequent	~Coffee	~Small	~Cash	1
+56	20	Student	~Soda	~Regular	~Debit	1
+57	20	Teacher	~Slushy	~Regular	~Credit	1
+58	31	None	~Cappuccino	~Large	~Cash	1
+
+PAIRING DETAILS
+var1	var2	value1	value2	appearances	cases
+Number of drinks	discount type	1	None	1	1
+Number of drinks	discount type	1	Student	1	2
+Number of drinks	discount type	1	Teacher	1	3
+Number of drinks	discount type	1	Military	1	27
+Number of drinks	discount type	1	Frequent	1	48
+Number of drinks	discount type	1	Coupon	1	53
+Number of drinks	discount type	1	Employee	1	37
+Number of drinks	discount type	4	None	1	4
+Number of drinks	discount type	4	Student	1	5
+Number of drinks	discount type	4	Teacher	1	6
+Number of drinks	discount type	4	Military	1	38
+Number of drinks	discount type	4	Frequent	1	39
+Number of drinks	discount type	4	Coupon	1	28
+Number of drinks	discount type	4	Employee	1	54
+Number of drinks	discount type	7	None	2	7, 47
+Number of drinks	discount type	7	Student	1	8
+Number of drinks	discount type	7	Teacher	1	9
+Number of drinks	discount type	7	Military	1	10
+Number of drinks	discount type	7	Frequent	1	55
+Number of drinks	discount type	7	Coupon	1	29
+Number of drinks	discount type	7	Employee	1	30
+Number of drinks	discount type	12	None	1	11
+Number of drinks	discount type	12	Student	1	40
+Number of drinks	discount type	12	Teacher	1	41
+Number of drinks	discount type	12	Military	1	12
+Number of drinks	discount type	12	Frequent	1	13
+Number of drinks	discount type	12	Coupon	1	49
+Number of drinks	discount type	12	Employee	1	31
+Number of drinks	discount type	17	None	1	32
+Number of drinks	discount type	17	Student	1	42
+Number of drinks	discount type	17	Teacher	1	50
+Number of drinks	discount type	17	Military	1	14
+Number of drinks	discount type	17	Frequent	1	15
+Number of drinks	discount type	17	Coupon	1	16
+Number of drinks	discount type	17	Employee	1	17
+Number of drinks	discount type	20	None	2	33, 44
+Number of drinks	discount type	20	Student	1	56
+Number of drinks	discount type	20	Teacher	1	57
+Number of drinks	discount type	20	Military	1	43
+Number of drinks	discount type	20	Frequent	1	18
+Number of drinks	discount type	20	Coupon	1	19
+Number of drinks	discount type	20	Employee	1	20
+Number of drinks	discount type	31	None	1	58
+Number of drinks	discount type	31	Student	1	23
+Number of drinks	discount type	31	Teacher	1	34
+Number of drinks	discount type	31	Military	1	51
+Number of drinks	discount type	31	Frequent	1	35
+Number of drinks	discount type	31	Coupon	1	21
+Number of drinks	discount type	31	Employee	1	22
+Number of drinks	discount type	50	None	1	45
+Number of drinks	discount type	50	Student	1	36
+Number of drinks	discount type	50	Teacher	1	24
+Number of drinks	discount type	50	Military	1	25
+Number of drinks	discount type	50	Frequent	1	26
+Number of drinks	discount type	50	Coupon	1	46
+Number of drinks	discount type	50	Employee	1	52
+Number of drinks	drink type	1	Coffee	1	1
+Number of drinks	drink type	1	Tea	1	2
+Number of drinks	drink type	1	Soda	2	3, 53
+Number of drinks	drink type	1	Slushy	2	27, 48
+Number of drinks	drink type	1	Cappuccino	1	37
+Number of drinks	drink type	4	Coffee	1	5
+Number of drinks	drink type	4	Tea	2	4, 28
+Number of drinks	drink type	4	Soda	2	38, 54
+Number of drinks	drink type	4	Slushy	1	6
+Number of drinks	drink type	4	Cappuccino	1	39
+Number of drinks	drink type	7	Coffee	2	9, 55
+Number of drinks	drink type	7	Tea	2	10, 30
+Number of drinks	drink type	7	Soda	1	7
+Number of drinks	drink type	7	Slushy	2	8, 29
+Number of drinks	drink type	7	Cappuccino	1	47
+Number of drinks	drink type	12	Coffee	2	12, 49
+Number of drinks	drink type	12	Tea	1	40
+Number of drinks	drink type	12	Soda	2	13, 31
+Number of drinks	drink type	12	Slushy	1	11
+Number of drinks	drink type	12	Cappuccino	1	41
+Number of drinks	drink type	17	Coffee	2	32, 42
+Number of drinks	drink type	17	Tea	2	15, 50
+Number of drinks	drink type	17	Soda	1	16
+Number of drinks	drink type	17	Slushy	1	17
+Number of drinks	drink type	17	Cappuccino	1	14
+Number of drinks	drink type	20	Coffee	1	20
+Number of drinks	drink type	20	Tea	1	44
+Number of drinks	drink type	20	Soda	2	33, 56
+Number of drinks	drink type	20	Slushy	2	43, 57
+Number of drinks	drink type	20	Cappuccino	2	18, 19
+Number of drinks	drink type	31	Coffee	2	21, 51
+Number of drinks	drink type	31	Tea	1	34
+Number of drinks	drink type	31	Soda	1	23
+Number of drinks	drink type	31	Slushy	1	35
+Number of drinks	drink type	31	Cappuccino	2	22, 58
+Number of drinks	drink type	50	Coffee	2	26, 52
+Number of drinks	drink type	50	Tea	1	46
+Number of drinks	drink type	50	Soda	1	25
+Number of drinks	drink type	50	Slushy	1	45
+Number of drinks	drink type	50	Cappuccino	2	24, 36
+Number of drinks	size	1	Small	2	1, 48
+Number of drinks	size	1	Regular	1	2
+Number of drinks	size	1	Large	2	3, 37
+Number of drinks	size	1	Grande	2	27, 53
+Number of drinks	size	4	Small	2	6, 54
+Number of drinks	size	4	Regular	2	28, 39
+Number of drinks	size	4	Large	1	4
+Number of drinks	size	4	Grande	2	5, 38
+Number of drinks	size	7	Small	2	10, 55
+Number of drinks	size	7	Regular	2	7, 9
+Number of drinks	size	7	Large	2	8, 29
+Number of drinks	size	7	Grande	2	30, 47
+Number of drinks	size	12	Small	2	13, 40
+Number of drinks	size	12	Regular	1	31
+Number of drinks	size	12	Large	2	12, 49
+Number of drinks	size	12	Grande	2	11, 41
+Number of drinks	size	17	Small	2	32, 50
+Number of drinks	size	17	Regular	2	14, 17
+Number of drinks	size	17	Large	1	42
+Number of drinks	size	17	Grande	2	15, 16
+Number of drinks	size	20	Small	2	19, 43
+Number of drinks	size	20	Regular	3	33, 56, 57
+Number of drinks	size	20	Large	2	18, 44
+Number of drinks	size	20	Grande	1	20
+Number of drinks	size	31	Small	2	22, 23
+Number of drinks	size	31	Regular	2	21, 51
+Number of drinks	size	31	Large	2	34, 58
+Number of drinks	size	31	Grande	1	35
+Number of drinks	size	50	Small	2	36, 46
+Number of drinks	size	50	Regular	2	26, 45
+Number of drinks	size	50	Large	2	25, 52
+Number of drinks	size	50	Grande	1	24
+Number of drinks	payment type	1	Cash	2	1, 37
+Number of drinks	payment type	1	Credit	3	2, 27, 53
+Number of drinks	payment type	1	Debit	2	3, 48
+Number of drinks	payment type	4	Cash	3	4, 28, 54
+Number of drinks	payment type	4	Credit	2	6, 39
+Number of drinks	payment type	4	Debit	2	5, 38
+Number of drinks	payment type	7	Cash	3	8, 9, 55
+Number of drinks	payment type	7	Credit	2	7, 29
+Number of drinks	payment type	7	Debit	3	10, 30, 47
+Number of drinks	payment type	12	Cash	2	13, 40
+Number of drinks	payment type	12	Credit	3	12, 31, 41
+Number of drinks	payment type	12	Debit	2	11, 49
+Number of drinks	payment type	17	Cash	2	14, 16
+Number of drinks	payment type	17	Credit	3	15, 32, 42
+Number of drinks	payment type	17	Debit	2	17, 50
+Number of drinks	payment type	20	Cash	2	20, 43
+Number of drinks	payment type	20	Credit	3	19, 44, 57
+Number of drinks	payment type	20	Debit	3	18, 33, 56
+Number of drinks	payment type	31	Cash	3	23, 35, 58
+Number of drinks	payment type	31	Credit	2	22, 51
+Number of drinks	payment type	31	Debit	2	21, 34
+Number of drinks	payment type	50	Cash	2	24, 45
+Number of drinks	payment type	50	Credit	2	25, 52
+Number of drinks	payment type	50	Debit	3	26, 36, 46
+discount type	drink type	None	Coffee	2	1, 32
+discount type	drink type	None	Tea	2	4, 44
+discount type	drink type	None	Soda	2	7, 33
+discount type	drink type	None	Slushy	2	11, 45
+discount type	drink type	None	Cappuccino	2	47, 58
+discount type	drink type	Student	Coffee	2	5, 42
+discount type	drink type	Student	Tea	2	2, 40
+discount type	drink type	Student	Soda	2	23, 56
+discount type	drink type	Student	Slushy	1	8
+discount type	drink type	Student	Cappuccino	1	36
+discount type	drink type	Teacher	Coffee	1	9
+discount type	drink type	Teacher	Tea	2	34, 50
+discount type	drink type	Teacher	Soda	1	3
+discount type	drink type	Teacher	Slushy	2	6, 57
+discount type	drink type	Teacher	Cappuccino	2	24, 41
+discount type	drink type	Military	Coffee	2	12, 51
+discount type	drink type	Military	Tea	1	10
+discount type	drink type	Military	Soda	2	25, 38
+discount type	drink type	Military	Slushy	2	27, 43
+discount type	drink type	Military	Cappuccino	1	14
+discount type	drink type	Frequent	Coffee	2	26, 55
+discount type	drink type	Frequent	Tea	1	15
+discount type	drink type	Frequent	Soda	1	13
+discount type	drink type	Frequent	Slushy	2	35, 48
+discount type	drink type	Frequent	Cappuccino	2	18, 39
+discount type	drink type	Coupon	Coffee	2	21, 49
+discount type	drink type	Coupon	Tea	2	28, 46
+discount type	drink type	Coupon	Soda	2	16, 53
+discount type	drink type	Coupon	Slushy	1	29
+discount type	drink type	Coupon	Cappuccino	1	19
+discount type	drink type	Employee	Coffee	2	20, 52
+discount type	drink type	Employee	Tea	1	30
+discount type	drink type	Employee	Soda	2	31, 54
+discount type	drink type	Employee	Slushy	1	17
+discount type	drink type	Employee	Cappuccino	2	22, 37
+discount type	size	None	Small	2	1, 32
+discount type	size	None	Regular	3	7, 33, 45
+discount type	size	None	Large	3	4, 44, 58
+discount type	size	None	Grande	2	11, 47
+discount type	size	Student	Small	3	23, 36, 40
+discount type	size	Student	Regular	2	2, 56
+discount type	size	Student	Large	2	8, 42
+discount type	size	Student	Grande	1	5
+discount type	size	Teacher	Small	2	6, 50
+discount type	size	Teacher	Regular	2	9, 57
+discount type	size	Teacher	Large	2	3, 34
+discount type	size	Teacher	Grande	2	24, 41
+discount type	size	Military	Small	2	10, 43
+discount type	size	Military	Regular	2	14, 51
+discount type	size	Military	Large	2	12, 25
+discount type	size	Military	Grande	2	27, 38
+discount type	size	Frequent	Small	3	13, 48, 55
+discount type	size	Frequent	Regular	2	26, 39
+discount type	size	Frequent	Large	1	18
+discount type	size	Frequent	Grande	2	15, 35
+discount type	size	Coupon	Small	2	19, 46
+discount type	size	Coupon	Regular	2	21, 28
+discount type	size	Coupon	Large	2	29, 49
+discount type	size	Coupon	Grande	2	16, 53
+discount type	size	Employee	Small	2	22, 54
+discount type	size	Employee	Regular	2	17, 31
+discount type	size	Employee	Large	2	37, 52
+discount type	size	Employee	Grande	2	20, 30
+discount type	payment type	None	Cash	4	1, 4, 45, 58
+discount type	payment type	None	Credit	3	7, 32, 44
+discount type	payment type	None	Debit	3	11, 33, 47
+discount type	payment type	Student	Cash	3	8, 23, 40
+discount type	payment type	Student	Credit	2	2, 42
+discount type	payment type	Student	Debit	3	5, 36, 56
+discount type	payment type	Teacher	Cash	2	9, 24
+discount type	payment type	Teacher	Credit	3	6, 41, 57
+discount type	payment type	Teacher	Debit	3	3, 34, 50
+discount type	payment type	Military	Cash	2	14, 43
+discount type	payment type	Military	Credit	4	12, 25, 27, 51
+discount type	payment type	Military	Debit	2	10, 38
+discount type	payment type	Frequent	Cash	3	13, 35, 55
+discount type	payment type	Frequent	Credit	2	15, 39
+discount type	payment type	Frequent	Debit	3	18, 26, 48
+discount type	payment type	Coupon	Cash	2	16, 28
+discount type	payment type	Coupon	Credit	3	19, 29, 53
+discount type	payment type	Coupon	Debit	3	21, 46, 49
+discount type	payment type	Employee	Cash	3	20, 37, 54
+discount type	payment type	Employee	Credit	3	22, 31, 52
+discount type	payment type	Employee	Debit	2	17, 30
+drink type	size	Coffee	Small	3	1, 32, 55
+drink type	size	Coffee	Regular	4	9, 21, 26, 51
+drink type	size	Coffee	Large	4	12, 42, 49, 52
+drink type	size	Coffee	Grande	2	5, 20
+drink type	size	Tea	Small	4	10, 40, 46, 50
+drink type	size	Tea	Regular	2	2, 28
+drink type	size	Tea	Large	3	4, 34, 44
+drink type	size	Tea	Grande	2	15, 30
+drink type	size	Soda	Small	3	13, 23, 54
+drink type	size	Soda	Regular	4	7, 31, 33, 56
+drink type	size	Soda	Large	2	3, 25
+drink type	size	Soda	Grande	3	16, 38, 53
+drink type	size	Slushy	Small	3	6, 43, 48
+drink type	size	Slushy	Regular	3	17, 45, 57
+drink type	size	Slushy	Large	2	8, 29
+drink type	size	Slushy	Grande	3	11, 27, 35
+drink type	size	Cappuccino	Small	3	19, 22, 36
+drink type	size	Cappuccino	Regular	2	14, 39
+drink type	size	Cappuccino	Large	3	18, 37, 58
+drink type	size	Cappuccino	Grande	3	24, 41, 47
+drink type	payment type	Coffee	Cash	4	1, 9, 20, 55
+drink type	payment type	Coffee	Credit	5	12, 32, 42, 51, 52
+drink type	payment type	Coffee	Debit	4	5, 21, 26, 49
+drink type	payment type	Tea	Cash	3	4, 28, 40
+drink type	payment type	Tea	Credit	3	2, 15, 44
+drink type	payment type	Tea	Debit	5	10, 30, 34, 46, 50
+drink type	payment type	Soda	Cash	4	13, 16, 23, 54
+drink type	payment type	Soda	Credit	4	7, 25, 31, 53
+drink type	payment type	Soda	Debit	4	3, 33, 38, 56
+drink type	payment type	Slushy	Cash	4	8, 35, 43, 45
+drink type	payment type	Slushy	Credit	4	6, 27, 29, 57
+drink type	payment type	Slushy	Debit	3	11, 17, 48
+drink type	payment type	Cappuccino	Cash	4	14, 24, 37, 58
+drink type	payment type	Cappuccino	Credit	4	19, 22, 39, 41
+drink type	payment type	Cappuccino	Debit	3	18, 36, 47
+size	payment type	Small	Cash	7	1, 13, 23, 40, 43, 54, 55
+size	payment type	Small	Credit	4	6, 19, 22, 32
+size	payment type	Small	Debit	5	10, 36, 46, 48, 50
+size	payment type	Regular	Cash	4	9, 14, 28, 45
+size	payment type	Regular	Credit	6	2, 7, 31, 39, 51, 57
+size	payment type	Regular	Debit	5	17, 21, 26, 33, 56
+size	payment type	Large	Cash	4	4, 8, 37, 58
+size	payment type	Large	Credit	6	12, 25, 29, 42, 44, 52
+size	payment type	Large	Debit	4	3, 18, 34, 49
+size	payment type	Grande	Cash	4	16, 20, 24, 35
+size	payment type	Grande	Credit	4	15, 27, 41, 53
+size	payment type	Grande	Debit	5	5, 11, 30, 38, 47
